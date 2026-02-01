@@ -29,3 +29,8 @@ http://127.0.0.1:8000/timer/?seconds=10
 ```
 
 A resposta será JSON com `elapsed_seconds` e uma mensagem de conclusão.
+
+## Endpoints
+
+- `GET /timer/` — contador assíncrono padrão (5s).
+- `GET /timer/?seconds=N` — contador assíncrono por N segundos.
